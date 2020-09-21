@@ -22,4 +22,8 @@ public class Pawn extends GamePieces{
     public boolean CheckPlayerValid(GamePieces[][] board){
         return x % 2 == 1 && y % 2 == 1;
     }
+
+    public boolean determineWin(){
+        return x - 18 == 1 || x + 18 == 19;
+    }
 }
