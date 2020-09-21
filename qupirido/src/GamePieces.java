@@ -1,12 +1,10 @@
 public class GamePieces {
-    private int x;
-    private int y;
-    public boolean pawn;
+    public int x;
+    public int y;
 
-    GamePieces(int x, int y, boolean pawn){
+    public GamePieces(int x, int y){
         this.x = x;
         this.y = y;
-        this.pawn = pawn;
     }
 
     public int getX(){
