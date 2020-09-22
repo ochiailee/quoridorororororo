@@ -15,6 +15,7 @@ public class Pawn extends GamePieces{
     public boolean determineLeftBlocking(GamePieces[][] board){
         return board[x][y-1] != null;
     }
+
     public boolean determineBotBlocking(GamePieces[][] board){
         return board[x-1][y] != null;
     }

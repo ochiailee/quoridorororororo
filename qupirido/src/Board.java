@@ -91,8 +91,38 @@ public class Board {
                 else if(getInputWallorPawn(s) == 0){
                     System.out.println("you have selected wall");
                     System.out.println("Which wall would you like to move? ");
-                    s.nextInt();
+                    int wall = s.nextInt();
 
+                    if(wall == 1){
+                        //move wall one
+                    }
+                    if(wall == 2){
+                        //move wall one
+                    }
+                    if(wall == 3){
+                        //move wall one
+                    }
+                    if(wall == 4){
+                        //move wall one
+                    }
+                    if(wall == 5){
+                        //move wall one
+                    }
+                    if(wall == 6){
+                        //move wall one
+                    }
+                    if(wall == 7){
+                        //move wall one
+                    }
+                    if(wall == 8){
+                        //move wall one
+                    }
+                    if(wall == 9){
+                        //move wall one
+                    }
+                    if(wall == 10){
+                        //move wall one
+                    }
                     playerturn++;
                 }
                 else{
@@ -107,7 +137,39 @@ public class Board {
                 }
                 else if(getInputWallorPawn(s) == 0){
                     System.out.println("you have selected wall");
+                    System.out.println("Which wall would you like to move? ");
+                    int wall = s.nextInt();
 
+                    if(wall == 1){
+                        //move wall one
+                    }
+                    if(wall == 2){
+                        //move wall one
+                    }
+                    if(wall == 3){
+                        //move wall one
+                    }
+                    if(wall == 4){
+                        //move wall one
+                    }
+                    if(wall == 5){
+                        //move wall one
+                    }
+                    if(wall == 6){
+                        //move wall one
+                    }
+                    if(wall == 7){
+                        //move wall one
+                    }
+                    if(wall == 8){
+                        //move wall one
+                    }
+                    if(wall == 9){
+                        //move wall one
+                    }
+                    if(wall == 10) {
+                        //move wall one
+                    }
                     playerturn++;
                 }
                 else{
